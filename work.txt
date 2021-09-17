@@ -1,0 +1,110 @@
+Create a application that will allow user to play a game and maintain score for the game.
+
+The game details
+A words is given for guess
+For Example if the word is - Rent
+The player starts to guess the word
+Enter your Guess
+Boat
+The word you entered is BOAT - Cow -1 , Bull - 0
+Enter your Guess
+Bold
+The word you entered is BOLD - Cow -0 , Bull - 0
+Enter your Guess
+Toad
+The word you entered is BOLD - Cow -0 , Bull - 1
+Enter your Guess
+Rate
+The word you entered is BOLD - Cow -1 , Bull - 2
+Enter your Guess
+Bold
+The word you entered is BOLD - Cow -0 , Bull - 0
+
+Same letter in same position is Cow
+Same letter but in different position is Bull
+
+When the player gets the word length as cow then the player wins
+
+Specifications for the application
+*Only registered your can play
+*User details needed are Name, username, password, phone
+*Once the user guessed teh word right remove the word from the user list
+*First menu should show option for register or login
+a) Login
+b) Register
+*Once logged in user will get a different menu
+Choose an option
+1) Words ready for you to play
+2) Assign word for another player
+3) See score board
+0) Exit
+Enter your choice
+1
+The words given to you are
+1) XXXX
+2) XXXXXX
+0) Go to previos menu
+Enter your choice
+1
+Enter your Guess
+Boat
+The word you entered is BOAT - Cow -1 , Bull - 0
+Enter your Guess
+Bold
+The word you entered is BOLD - Cow -0 , Bull - 0
+Enter your Guess
+Toad
+The word you entered is TOAD- Cow -0 , Bull - 1
+Enter your Guess
+Rate
+The word you entered is RATE- Cow -1 , Bull - 2
+Enter your Guess
+Rent
+The word you entered is RENT - Cow -4 , Bull - 0
+That is the word. Congrats!!!!!
+----------------------------------------
+The words given to you are
+1) XXXX
+2) XXXXXX
+0) Go to previos menu
+Enter your choice
+0
+1) Words ready for you to play
+2) Assign word for another player
+3) See score board
+0) Exit
+Enter your choice
+2
+Enter the word
+Rent
+The available users are given bellow
+1) ABC
+2) XYZ
+3) BBB
+Select the user
+1
+Your word has been added to user 1 - ABC 's word list
+Choose an option
+1) Words ready for you to play
+2) Assign word for another player
+3) See score board
+0) Exit
+Enter your choice
+3
+Score Board
+----------------------------
+User	Score
+ABC	30
+XYZ	20
+-----------------------------
+Choose an option
+1) Words ready for you to play
+2) Assign word for another player
+3) See score board
+0) Exit
+Enter your choice
+0
+Bye bye
+ 
+
+Hints -> Create a table which will store the words for the user
